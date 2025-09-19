@@ -6,7 +6,7 @@
  * Copyright © 2012 Nathan Hjelm <hjelmn@cs.unm.edu>
  * For more information, please visit: http://libusb.info
  * Slight modifications to this file for use with rtlsdr.dll under Windows
- * and VS2010 by Joanne Dow <jdow@earthlink.net> 2014
+ * and VS2022 by Joanne Dow <jdow@earthlink.net> 2014
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public

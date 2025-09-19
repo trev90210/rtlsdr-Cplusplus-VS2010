@@ -139,7 +139,7 @@ Notes on the Joanne Dow tree (2014/10/24)
 
 
 This tree is based on the mutability tree above. The changes involve making it a
-Windows specific tool, converting it to VS2010, converting it to C++, and adding
+Windows specific tool, converting it to VS2022, converting it to C++, and adding
 a feature for supporting multiple dongles. Converting it back to work on 'ix should
 not be particularly difficult as long as you accept that it's in C++. As it sits it
 is 100% compatible with the base rtlsdr.dll.

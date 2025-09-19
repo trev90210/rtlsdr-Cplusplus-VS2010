@@ -108,12 +108,12 @@
     <PostBuildEvent>
       <Command>rem        copy /Y "$(TargetPath)" "$(SolutionDir)RtlSdr Catalog\$(PlatformShortName)\$(Configuration)"
 rem       copy /Y "$(TargetPath)" "D:\Downloads\SDR\sdr-install\sdrsharp 1337"
-rem       copy /Y "$(TargetPath)" "D:\Projects\VS2010\sdrsharp SVN copy - Virgin\trunk\Debug"
+rem       copy /Y "$(TargetPath)" "D:\Projects\VS2022\sdrsharp SVN copy - Virgin\trunk\Debug"
 rem       copy /Y "$(TargetPath)" "D:\Downloads\SDR\sdr-install\sdrsharp 1332 - Copy"
-rem        copy /Y "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\RTLSDR Work\sdrsharp 1430"
-rem        copy /Y "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\RTLSDR Work\sdrsharp 1332"
-        copy /Y "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\RtlTool\Win32\Debug"
-        copy /Y "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\RtlTool - Test\Win32\Debug"
+rem        copy /Y "$(TargetPath)" "D:\Projects\VS2022\Ham Radio\RTLSDR Work\sdrsharp 1430"
+rem        copy /Y "$(TargetPath)" "D:\Projects\VS2022\Ham Radio\RTLSDR Work\sdrsharp 1332"
+        copy /Y "$(TargetPath)" "D:\Projects\VS2022\Ham Radio\RtlTool\Win32\Debug"
+        copy /Y "$(TargetPath)" "D:\Projects\VS2022\Ham Radio\RtlTool - Test\Win32\Debug"
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -134,10 +134,10 @@ rem        copy /Y "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\RTLSDR Work\sdr
       <Command>copy /Y "$(TargetPath)" "$(SolutionDir)RtlSdr Catalog\$(PlatformName)\$(Configuration)\$(TargetFileName)"
 copy /Y "$(TargetPath)" "$(SolutionDir)SDR Radio V2\$(TargetFileName)"
 copy /Y "$(TargetPath)" "$(SolutionDir)SDR Radio V3\$(TargetFileName)"
-rem copy /Y "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\SDR-Radio\Console\SDRSourceRTL2832U\SDR Radio V2\$(TargetFileName)"
-copy /Y "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\SDR-Radio\Console\SDRSourceRTL2832U\SDR Radio V3\$(TargetFileName)"
-copy /Y "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\RtlTool\x64\Debug\$(TargetFileName)"
-copy /Y "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\RtlTool - Test\x64\Debug\$(TargetFileName)"
+rem copy /Y "$(TargetPath)" "D:\Projects\VS2022\Ham Radio\SDR-Radio\Console\SDRSourceRTL2832U\SDR Radio V2\$(TargetFileName)"
+copy /Y "$(TargetPath)" "D:\Projects\VS2022\Ham Radio\SDR-Radio\Console\SDRSourceRTL2832U\SDR Radio V3\$(TargetFileName)"
+copy /Y "$(TargetPath)" "D:\Projects\VS2022\Ham Radio\RtlTool\x64\Debug\$(TargetFileName)"
+copy /Y "$(TargetPath)" "D:\Projects\VS2022\Ham Radio\RtlTool - Test\x64\Debug\$(TargetFileName)"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -162,12 +162,12 @@ copy /Y "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\RtlTool - Test\x64\Debug\$
         copy /Y "$(TargetPath)" "$(SolutionDir)RtlSdr Catalog\$(PlatformShortName)\$(Configuration)"
         copy /Y "$(TargetPath)" "D:\Downloads\SDR\sdr-install\sdrsharp1337"
         copy /Y "$(TargetPath)" "D:\Downloads\SDR\sdr-install"
-        copy /Y "$(TargetPath)" "D:\Projects\VS2010\sdrsharp SVN copy - Virgin\trunk\Debug"
-        copy /Y "$(TargetPath)" "D:\Projects\VS2010\sdrsharp SVN copy - Virgin\trunk\release"
+        copy /Y "$(TargetPath)" "D:\Projects\VS2022\sdrsharp SVN copy - Virgin\trunk\Debug"
+        copy /Y "$(TargetPath)" "D:\Projects\VS2022\sdrsharp SVN copy - Virgin\trunk\release"
         copy /Y "$(TargetPath)" "D:\Downloads\SDR\sdr-install\sdrsharp1332 - Copy"
-        copy /Y "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\RTLSDR Work\sdrsharp 1430"
-        copy /Y /Y "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\RTLSDR Work\sdrsharp 1332"
-        copy /Y "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\RtlTool\Debug"
+        copy /Y "$(TargetPath)" "D:\Projects\VS2022\Ham Radio\RTLSDR Work\sdrsharp 1430"
+        copy /Y /Y "$(TargetPath)" "D:\Projects\VS2022\Ham Radio\RTLSDR Work\sdrsharp 1332"
+        copy /Y "$(TargetPath)" "D:\Projects\VS2022\Ham Radio\RtlTool\Debug"
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -192,9 +192,9 @@ copy /Y "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\RtlTool - Test\x64\Debug\$
         copy /Y "$(TargetPath)" "$(SolutionDir)RtlSdr Catalog\$(PlatformName)\$(Configuration)"
         copy "$(TargetPath)" "$(SolutionDir)SDR Radio V3\$(TargetFileName)"
         copy "$(TargetPath)" "$(SolutionDir)SDR Radio V2\$(TargetFileName)"
-rem copy "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\SDR-Radio\Console\SDRSourceRTL2832U\SDR Radio v2\$(TargetFileName)"
-        copy "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\SDR-Radio\Console\SDRSourceRTL2832U\SDR Radio V3\$(TargetFileName)"
-        copy "$(TargetPath)" "D:\Projects\VS2010\Ham Radio\SDR-Radio.com (V3)\$(TargetFileName)"</Command>
+rem copy "$(TargetPath)" "D:\Projects\VS2022\Ham Radio\SDR-Radio\Console\SDRSourceRTL2832U\SDR Radio v2\$(TargetFileName)"
+        copy "$(TargetPath)" "D:\Projects\VS2022\Ham Radio\SDR-Radio\Console\SDRSourceRTL2832U\SDR Radio V3\$(TargetFileName)"
+        copy "$(TargetPath)" "D:\Projects\VS2022\Ham Radio\SDR-Radio.com (V3)\$(TargetFileName)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>

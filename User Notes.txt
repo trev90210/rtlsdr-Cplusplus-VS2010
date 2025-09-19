@@ -6,11 +6,11 @@ This version of rtlsdr.dll is rewritten, with considerable cut and paste, from
 Steve Markgraf's original distribution version source for rtlsdr.dll plus
 contributions from Oliver Jowette, Dimitri Stolnikov, 
 Kyle Keen, and others.
-It was redone in Visual Studio 2010 as a C++ project. Joanne Dow added the dongle
+It was redone in Visual Studio 2022 as a C++ project. Joanne Dow added the dongle
 memory facility as registry entries.
 
 Source code is available on GitHub:
-	https://github.com/ms-jdow/rtlsdr-Cplusplus-VS2010
+	https://github.com/ms-jdow/rtlsdr-Cplusplus-VS2022
 
 User Notes
 ==========

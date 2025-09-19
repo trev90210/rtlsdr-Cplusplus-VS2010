@@ -3,7 +3,7 @@
  *
  * Copyright (C) 2012 Hans-Frieder Vogt <hfvogt@gmx.net>
  * partially based on driver code from Fitipower
- * Copyright (C) 2010 Fitipower Integrated Technology Inc
+ * Copyright (C) 2022 Fitipower Integrated Technology Inc
  *
  * modified for use in librtlsdr
  * Copyright (C) 2012 Steve Markgraf <steve@steve-m.de>

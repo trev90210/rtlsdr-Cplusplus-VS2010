@@ -20,7 +20,7 @@ CMyMutex			RtlSdrList::rtlsdr_mutex( _T( "RtlSdr++ Mutex" ));
 enum usb_reg
 {
 	USB_SYSCTL		    = 0x2000,
-	USB_CTRL		    = 0x2010,
+	USB_CTRL		    = 0x2022,
 	USB_STAT		    = 0x2014,
 	USB_EPA_CFG		    = 0x2144,
 	USB_EPA_CTL		    = 0x2148,

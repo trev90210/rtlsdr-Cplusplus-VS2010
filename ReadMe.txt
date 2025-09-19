@@ -156,9 +156,9 @@ we can make proper comparisons.
 Note that if I cannot read a dongle I simply "punt it".
 
 
-D:\Projects\VS2010\sdrsharp SVN copy - Virgin\trunk\Debug\SDRSharp.exe
+D:\Projects\VS2022\sdrsharp SVN copy - Virgin\trunk\Debug\SDRSharp.exe
 
-D:\Projects\VS2010\sdrsharp SVN copy - Virgin\trunk\Debug
+D:\Projects\VS2022\sdrsharp SVN copy - Virgin\trunk\Debug
 
 
 Have the sparse eeprom read and the sparse compare test to use in reinit. Now
