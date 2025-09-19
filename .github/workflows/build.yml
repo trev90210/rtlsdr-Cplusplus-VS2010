@@ -14,16 +14,16 @@ jobs:
         configuration:
           - 'Debug'
           - 'Release'
-          - 'Debug-MT'
-          - 'Release-MT'
-          - 'Debug-Hotplug'
-          - 'Release-Hotplug'
-          - 'Debug-Hotplug-MT'
-          - 'Release-Hotplug-MT'
+          #- 'Debug-MT'
+          #- 'Release-MT'
+          #- 'Debug-Hotplug'
+          #- 'Release-Hotplug'
+          #- 'Debug-Hotplug-MT'
+          #- 'Release-Hotplug-MT'
         architecture:
           - 'Win32'
           - 'x64'
-          - 'ARM64'
+          #- 'ARM64'
 
     runs-on: ${{ matrix.os }}
 
@@ -37,4 +37,5 @@ jobs:
       - name: Build solution
         run: |
           msbuild rtsdr.sln /m -property:Configuration=${{ matrix.configuration }} -property:Platform=${{ matrix.architecture }}
+
 
