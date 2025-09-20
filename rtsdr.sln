@@ -1,5 +1,5 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
+Microsoft Visual Studio Solution File, Format Version 16.00
 # Visual Studio 2022
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtlsdr", "rtsdr.vcxproj", "{C6D5C104-8C62-400C-96DA-E3E15AC2C0F7}"
 EndProject
