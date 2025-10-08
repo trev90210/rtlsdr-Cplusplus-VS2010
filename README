@@ -2,6 +2,16 @@ rtl-sdr
 turns your Realtek RTL2832 based DVB dongle into a SDR receiver
 ======================================================================
 
+This is obsolete and should be ignored due to an annoying bug I am
+disinclined to fix.  2025-10-08 JDow
+
+
+
+
+
+
+
+
 For more information on base tree see:
 http://sdr.osmocom.org/trac/wiki/rtl-sdr
 
@@ -332,3 +342,4 @@ RTLSDR_API int rtlsdr_set_bias_tee(rtlsdr_dev_t *dev, int on);
 
 
 {^_^} Joanne (jdow@earthlink.net)
+
