@@ -1,7 +1,7 @@
 
 name: Windows build and Package
 
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
@@ -37,6 +37,7 @@ jobs:
       - name: Build solution
         run: |
           msbuild rtsdr.sln /m -property:Configuration=${{ matrix.configuration }} -property:Platform=${{ matrix.architecture }}
+
 
 
 
