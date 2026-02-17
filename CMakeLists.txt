@@ -37,5 +37,5 @@ set(SRC_DIR ${CMAKE_CURRENT_LIST_DIR})
 #add_subdirectory(${SRC_DIR}/getopt)
 
 #add_executable(librtlsdr ${SRC_DIR}/librtlsdr.cpp)
-target_link_libraries(librtlsdr PRIVATE ${RTLSDR_LIBS} getopt) 
+#target_link_libraries(librtlsdr PRIVATE ${RTLSDR_LIBS} getopt) 
 install_dlls(librtlsdr)
