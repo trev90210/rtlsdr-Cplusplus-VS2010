@@ -34,8 +34,8 @@ else()
 endif()
 
 set(SRC_DIR ${CMAKE_CURRENT_LIST_DIR})
-add_subdirectory(${SRC_DIR}/getopt)
+#add_subdirectory(${SRC_DIR}/getopt)
 
-add_executable(rtl_sdr ${SRC_DIR}/rtl_sdr.cpp)
+#add_executable(rtl_sdr ${SRC_DIR}/rtl_sdr.cpp)
 target_link_libraries(rtl_sdr PRIVATE ${RTLSDR_LIBS} getopt) 
 install_dlls(rtl_sdr)
