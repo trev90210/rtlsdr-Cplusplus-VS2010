@@ -3,15 +3,15 @@ project(radio)
 
 # Windows + MSYS = Install rtlsdr from submodule
 # Ubuntu = Install rtlsdr from package manager
-#if (WIN32) 
-#    set(rtlsdr_DIR ${CMAKE_CURRENT_LIST_DIR}/../)
-#    find_package(rtlsdr CONFIG REQUIRED)
-#    set(RTLSDR_LIBS rtlsdr::rtlsdr)
-#else()
-#    find_package(PkgConfig REQUIRED)
-#    pkg_check_modules(rtlsdr REQUIRED IMPORTED_TARGET librtlsdr)
-#    set(RTLSDR_LIBS PkgConfig::rtlsdr)
-#endif()
+if (WIN32) 
+    set(rtlsdr_DIR ${CMAKE_CURRENT_LIST_DIR}/../)
+    find_package(libusb CONFIG REQUIRED)
+    set(RTLSDR_LIBS libusb::libusb)
+else()
+    find_package(PkgConfig REQUIRED)libusb
+    pkg_check_modules(librtlsdr REQUIRED IMPORTED_TARGET libusb)
+    set(RTLSDR_LIBS PkgConfig::librtlsdr)
+endif()
 
 #function(install_dlls target)
 #    if (WIN32)
