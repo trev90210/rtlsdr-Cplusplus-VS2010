@@ -22,20 +22,18 @@ jobs:
 
     - name: Configure CMake
       run: |
-        cd ./examples
         cmake -B build -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} -G Ninja
 
     - name: Build
       run: |
-        cd ./examples
         ninja -C build
 
     - name: Copy files (Release)
       shell: bash
       run: |
         mkdir upload
-        cp examples/build/*.exe upload
-        cp examples/build/*.dll upload
+        cp build/*.exe upload
+        cp build/*.dll upload
 
     - name: Upload files (Release)
       uses: actions/upload-artifact@v4
@@ -54,20 +52,18 @@ jobs:
 
     - name: Configure CMake
       run: |
-        cd ./examples
         cmake -B build -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} -G Ninja
 
     - name: Build
       run: |
-        cd ./examples
         ninja -C build
 
     - name: Copy files (Release)
       shell: bash
       run: |
         mkdir upload
-        cp examples/build/*.exe upload
-        cp examples/build/*.dll upload
+        cp build/*.exe upload
+        cp build/*.dll upload
 
     - name: Upload files (Release)
       uses: actions/upload-artifact@v4
