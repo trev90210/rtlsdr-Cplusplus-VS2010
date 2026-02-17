@@ -8,7 +8,7 @@ if (WIN32)
     find_package(libusb CONFIG REQUIRED)
     set(RTLSDR_LIBS libusb::libusb)
 else()
-    find_package(PkgConfig REQUIRED)libusb
+    find_package(PkgConfig REQUIRED)
     pkg_check_modules(librtlsdr REQUIRED IMPORTED_TARGET libusb)
     set(RTLSDR_LIBS PkgConfig::librtlsdr)
 endif()
